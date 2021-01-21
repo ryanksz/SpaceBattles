@@ -1,0 +1,25 @@
+
+// java plugin is required for e.g. compilation, the application plugin is used to execute the game via gradle
+apply plugin: 'java'
+apply plugin: 'application'
+
+// give your project a name
+archivesBaseName = "SpaceBattles"
+version = "1.0"
+targetCompatibility = "11"
+mainClassName = "com.SpaceBattles.Program"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'de.gurkenlabs:litiengine:0.5.0'
+}
+
+sourceSets {
+    main.java.srcDir "src"
+    main.resources.srcDirs = ["sprites", "audio", "maps", "misc"]
+
+    // main.resources.includes = ["game.litidata"]
+}

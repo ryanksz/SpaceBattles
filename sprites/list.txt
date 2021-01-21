@@ -1,0 +1,38 @@
+Credit www.kenney.nl
+
+Player ships
+playerShip1_blue
+playerShip1_green
+playerShip1_red
+playerShip1_orange
+
+Player ship damage
+playerShip1_damage1
+playerShip1_damage2
+playerShip1_damage3
+
+Fire
+fire00
+fire01
+fire02
+
+Enemies
+enemyBlack1
+enemyGreen1
+enemyBlue1
+enemyRed1
+
+laser
+laserBlue1
+
+meteors
+meteorGrey_med1
+meteorGrey_big1
+
+life bars
+playerLife1_blue
+playerLife1_green
+playerLife1_orange
+playerLife1_yellow
+
+background
