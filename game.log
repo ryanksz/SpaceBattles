@@ -363,3 +363,7 @@ Jan 25, 2021 9:01:21 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap 
 WARNING: Tiled version 1.4.3 of map "spacebattlesmap" is greater than the supported version 1.2.x. Some features may not work.
 Jan 25, 2021 9:01:21 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
 WARNING: Tiled version 1.4.3 of map "spacebattlesmap" is greater than the supported version 1.2.x. Some features may not work.
+Jan 31, 2021 3:05:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.4.3 of map "spacebattlesmap" is greater than the supported version 1.2.x. Some features may not work.
+Jan 31, 2021 3:05:24 PM de.gurkenlabs.litiengine.environment.tilemap.xml.TmxMap checkVersion
+WARNING: Tiled version 1.4.3 of map "spacebattlesmap" is greater than the supported version 1.2.x. Some features may not work.
