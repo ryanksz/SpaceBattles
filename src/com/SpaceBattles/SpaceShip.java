@@ -16,9 +16,9 @@ import javazoom.jl.player.Player;
 
 //spaceship png 99x75
 
-@EntityInfo(width = 99, height = 75)
+@EntityInfo(width = 18, height = 18)
 @MovementInfo(velocity = 100)
-@CollisionInfo(collisionBoxWidth = 90, collisionBoxHeight = 70, collision = true)
+@CollisionInfo(collisionBoxWidth = 18, collisionBoxHeight = 18, collision = true)
 public class SpaceShip extends Creature implements IUpdateable {
 
     private static SpaceShip instance;
@@ -32,7 +32,7 @@ public class SpaceShip extends Creature implements IUpdateable {
     }
 
     private SpaceShip() {
-        super("playerShip1_blue");
+        super("playerShip1_blue.png");
         this.addController(new PlatformingMovementController<>(this));
 
     }
