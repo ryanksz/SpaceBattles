@@ -37,6 +37,9 @@ public class Program {
         //https://litiengine.com/docs/tutorials/creating-a-platformer/
         Resources.load("game.litidata");
 
+        //initiate the space ship and logic
+        GameLogic.init();
+
         //add the screen
         Game.screens().add(new SpaceScreen());
 
