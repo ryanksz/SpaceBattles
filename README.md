@@ -1,4 +1,4 @@
-# SpaceBattles!! (work in progress)
+# SpaceBattles!! 
 #### alpha build 
 ## A simple space shooter
 #### Uses Litiengine https://litiengine.com/
