@@ -40,6 +40,9 @@ public class Program {
         //initiate the space ship and logic
         GameLogic.init();
 
+        //initiate the player input
+        PlayerInput.init();
+
         //add the screen
         Game.screens().add(new SpaceScreen());
 

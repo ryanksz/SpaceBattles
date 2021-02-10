@@ -1,5 +1,7 @@
 package com.SpaceBattles;
 
+import com.SpaceBattles.entities.Enemy;
+import com.SpaceBattles.entities.SpaceShip;
 import de.gurkenlabs.litiengine.Game;
 import de.gurkenlabs.litiengine.entities.Spawnpoint;
 import de.gurkenlabs.litiengine.graphics.Camera;
@@ -22,13 +24,19 @@ public final class GameLogic {
         camera.setClampToMap(true);
         Game.world().setCamera(camera);
 
-        //add the spawn point
+        //add the spawn points
         Game.world().onLoaded(e -> {
             Spawnpoint spawn = e.getSpawnpoint("spawn");
             if(spawn != null) {
                 spawn.spawn(SpaceShip.instance());
             }else {
                 System.out.println("Cannot find spawn point");
+            }
+            Spawnpoint enemySpawn = e.getSpawnpoint("enemySpawn");
+            if(enemySpawn != null) {
+                enemySpawn.spawn(Enemy.instance());
+            }else {
+                System.out.println("Cannot find enemy spawn point");
             }
         });
     }
